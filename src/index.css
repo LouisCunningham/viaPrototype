@@ -135,7 +135,9 @@ video{
   video{
     pointer-events: none;
   }
- 
+ .mobile-container{
+  width: 100% !important;
+ }
   .landing h1, .landing h2{
     font-family: "Roboto Mono", monospace;
     font-weight: 600;

@@ -9,8 +9,8 @@ const Landing = () => {
             <source src={video} type='video/mp4' />
         </video>
 	<div className=" text-white mb-6">
-		<div className="container mr-2 md:mx-auto lg:mx-auto flex flex-col md:flex-row items-center my-12 md:my-24 w-3/4">
-			<div className="flex flex-col sm:w-full w-3/4 lg:w-2/3 justify-center items-start p-8">
+		<div className="container mr-2 md:mx-auto lg:mx-auto flex flex-col md:flex-row items-center my-12 md:my-24 w-3/4 mobile-container">
+			<div className="flex flex-col sm:w-full w-full lg:w-3/4 justify-center items-start p-8">
 				<h1 className=" sm:text-sm md:text-2xl text-4xl p-2  tracking-loose uppercase">viaSolutions</h1>
 				<h2 className="text-5xl sm:text-sm md:text-3xl p-2 leading-relaxed md:leading-snug mb-10 uppercase">Consulting
 				</h2>
