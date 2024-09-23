@@ -1,0 +1,42 @@
+import React from 'react'
+
+const ConsultPage = () => {
+  return (
+    <div className='bg-custom' >
+      <section className="mx-auto flex max-w-lg flex-col px-4 py-10 lg:max-w-screen-xl lg:flex-row">
+  <div className="max-w-md pr-20 lg:pt-28">
+    <img src="https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/601074ed0f05cd25097215a4_6002086f72b7277e1f01d682_ryan-morrison-illustration-1.png" alt="" />
+  </div>
+  <div className="">
+    <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-white shadow-lg shadow-indigo-600/20">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />
+      </svg>
+    </div>
+    <h2 className="mb-10 max-w-lg text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">Intro <span className="text-indigo-600">Consulting</span> text</h2>
+    <div className="grid gap-y-12 gap-x-8 lg:grid-cols-2">
+      <div>
+        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10 text-gray-400">Service Strategy and Design</p>
+        <p className="text-lg text-gray-300">Help businesses create a service strategy aligned with their goals, focusing on designing services that meet customer needs efficiently.</p>
+      </div>
+      <div>
+        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10 text-gray-400">Service Transition and Implementation</p>
+        <p className="text-lg text-gray-300">Guide organizations through implementing ITSM processes, tools, and best practices, ensuring smooth transitions from legacy systems or new setups.</p>
+      </div>
+      <div>
+        <p className="mb-6 border-l-4 border-indigo-600 text-gray-400 pl-4 text-2xl leading-10">Service Operation and Improvement</p>
+        <p className="text-lg text-gray-300">Focus on operational management of IT services, including incident, problem, and change management. Also, cover continuous improvement strategies for service efficiency.</p>
+      </div>
+      <div>
+        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10 text-gray-400">Governance, Risk, and Compliance (GRC)</p>
+        <p className="text-lg text-gray-300">Ensure that IT services comply with industry standards and regulations, managing risks and maintaining governance for service management processes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </div>
+  )
+}
+
+export default ConsultPage
